@@ -1,0 +1,29 @@
+{
+  "name": "deme-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "co-body": "^4.2.0",
+    "co-views": "^2.1.0",
+    "koa": "^1.2.4",
+    "koa-route": "^2.4.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bktSon/Koa.git"
+  },
+  "author": "sonbkt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bktSon/Koa/issues"
+  },
+  "homepage": "https://github.com/bktSon/Koa#readme"
+}
