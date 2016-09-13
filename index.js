@@ -65,11 +65,10 @@ function *edit(id) {
 
 function *update() {
     const todo = yield parse(this);
-    // const index = todo.id;
-    // console.log(index);
-    todos[todo.id].name = todo.name;
-    todos[todo.id].description = todo.description;
-    todos[todo.id].updated_on  = new Date;
+    const index = todo.id;
+    todos[index].name = todo.name;
+    todos[index].description = todo.description;
+    todos[index].updated_on  = new Date;
     this.redirect('/');
 }
 
